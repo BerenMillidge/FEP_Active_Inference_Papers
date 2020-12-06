@@ -146,10 +146,10 @@ def get_AIF_outline(list_classif, filename):
 
 def get_footnote_string():
     str_outline = "\n \n"
-    str_outline += "The README file was generated from bibtex using the `bibtex_to_md.py` file. \n"
     str_outline += "## Contributing \n"
-    str_outline += "To contribute, please make pull requests adding entries to the bibtex file. The keywords to use for each classification (Survey, Discrete-state-space etc) can be found at the bottom of the .py file. \n"
-    str_outline += "This code and structure is heavily inspired by https://github.com/optimass/continual_learning_papers."
+    str_outline += "To contribute, please make pull requests adding entries to the bibtex file.  \n \n The README file was generated from bibtex using the `bibtex_to_md.py` file. \n The keywords to use for each classification (Survey, Discrete-state-space etc) can be found at the bottom of the .py file. \n"
+    str_outline += "\n \n"
+    str_outline += "*This code and structure is heavily inspired by https://github.com/optimass/continual_learning_papers.*"
     return str_outline
 
 
