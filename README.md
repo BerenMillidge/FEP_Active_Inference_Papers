@@ -126,6 +126,8 @@ Active Inference is a process theory of neurobiological function inspired by and
 
 ## Continuous Time Formulation
 - [**On Kalman-Bucy filters, linear quadratic control and active inference**](https://arxiv.org/abs/2005.06269) , (2020) by *Baltieri, Manuel and Buckley, Christopher L* [[bib]](bibtex.bib#L684-L691) 
+ 
+ *A key step towards understanding how active inference relates to classical control theory methods such as Kalman Filters and LQR control.* 
 - [**PID control as a process of active inference with linear generative models**](https://www.mdpi.com/1099-4300/21/3/257) , (2019) by *Baltieri, Manuel and Buckley, Christopher L* [[bib]](bibtex.bib#L671-L682) 
  
  *Active inference under a linear gaussian generative model can replicate PID, but also provide a natural method for learning the tuning coefficients (by understanding them as precisions).* 
