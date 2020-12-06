@@ -91,3 +91,9 @@ Active Inference is a process theory of neurobiological function inspired by and
 - [**Generalised free energy and active inference**](https://link.springer.com/article/10.1007/s00422-019-00805-w) , (2019) by *Parr, Thomas and Friston, Karl J* [[bib]](bibtex.bib#L502-L513) 
 - [**Active inference, belief propagation, and the bethe approximation**](https://www.mitpressjournals.org/doi/abs/10.1162/neco_a_01108) , (2018) by *Schw{\"o}bel, Sarah, Kiebel, Stefan and Markovi{\'c}, Dimitrije* [[bib]](bibtex.bib#L490-L501) 
 - [**The graphical brain: belief propagation and active inference**](https://www.mitpressjournals.org/doi/full/10.1162/NETN_a_00018) , (2017) by *Friston, Karl J, Parr, Thomas and de Vries, Bert* [[bib]](bibtex.bib#L466-L477) 
+
+ 
+The README file was generated from bibtex using the `bibtex_to_md.py` file. 
+## Contributing 
+To contribute, please make pull requests adding entries to the bibtex file. The keywords to use for each classification (Survey, Discrete-state-space etc) can be found at the bottom of the .py file. 
+This code and structure is heavily inspired by https://github.com/optimass/continual_learning_papers.
