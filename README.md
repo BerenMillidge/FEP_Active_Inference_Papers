@@ -12,63 +12,50 @@ This list is of papers focused specifically on the abstract mathematical form of
 
 ## Surveys
 - [**A free energy principle for a particular physics**](https://arxiv.org/pdf/1906.10184.pdf) , (2019) by *Friston, Karl* [[bib]](bibtex.bib#L41-L48) 
-* 
-This is Karl's magisterial monograph, and contains the most comprehensive description of the FEP to date
- * 
+ 
+ *This is Karl's magisterial monograph, and contains the most comprehensive description of the FEP to date* 
 - [**A tutorial on the free-energy framework for modelling perception and learning**](https://www.sciencedirect.com/science/article/pii/S0022249615000759) , (2017) by *Bogacz, Rafal* [[bib]](bibtex.bib#L1-L11) 
-* 
-This is a great review which introduces the basics of predictive coding and the FEP, including the maths and contains MATLAB sample code. If you are totally new, I would start here.
- * 
+ 
+ *This is a great review which introduces the basics of predictive coding and the FEP, including the maths and contains MATLAB sample code. If you are totally new, I would start here.* 
 - [**The free energy principle for action and perception: A mathematical review**](https://www.sciencedirect.com/science/article/pii/S0022249617300962) , (2017) by *Buckley, Christopher L, Kim, Chang Sub, McGregor, Simon and Seth, Anil K* [[bib]](bibtex.bib#L14-L24) 
-* 
-This is a fantastic review which presents a complete walkthrough of the mathematical basis of the Free Energy Principle and Variational Inference, and derives predictive coding and (continuous time and state) active inference. I would reccomend this as a second thing to read (although be prepared -- it is a long and serious read)
- * 
+ 
+ *This is a fantastic review which presents a complete walkthrough of the mathematical basis of the Free Energy Principle and Variational Inference, and derives predictive coding and (continuous time and state) active inference. I would reccomend this as a second thing to read (although be prepared -- it is a long and serious read)* 
 - [**The free-energy principle: a unified brain theory?**](https://www.uab.edu/medicine/cinl/images/KFriston_FreeEnergy_BrainTheory.pdf) , (2010) by *Friston, Karl* [[bib]](bibtex.bib#L27-L39) 
-* 
-This provides a great overview for the initial intuitions behind the FEP and its application to biological systems.
- * 
+ 
+ *This provides a great overview for the initial intuitions behind the FEP and its application to biological systems.* 
 
 ## Classics
 - [**Of woodlice and men**](https://www.aliusresearch.org/uploads/9/1/6/0/91600416/alius_bulletin_n%C2%B02__2018_.pdf#page=27) , (2018) by *Fortier, Martin and Friedman, Daniel A* [[bib]](bibtex.bib#L129-L137) 
-* 
-A great interview with Karl. Goes into a lot of his personal motivations underlying his work on the FEP. I would reccomend this perhaps as an initial place to start out if you know nothing of the FEP to grasp the underlying motivations of *what* it is trying to explain.
- * 
+ 
+ *A great interview with Karl. Goes into a lot of his personal motivations underlying his work on the FEP. I would reccomend this perhaps as an initial place to start out if you know nothing of the FEP to grasp the underlying motivations of *what* it is trying to explain.* 
 - [**Surfing uncertainty: Prediction, action, and the embodied mind**](https://books.google.co.uk/books?hl=en&lr=&id=TnqECgAAQBAJ&oi=fnd&pg=PP1&dq=andy+clark+surfing+uncertainty&ots=aurm4jE3NO&sig=KxeHGJ6YJJdN9tKyr6snwDyBBKg&redir_esc=y#v=onepage&q=andy%20clark%20surfing%20uncertainty&f=false) , (2015) by *Clark, Andy* [[bib]](bibtex.bib#L307-L314) 
 - [**A free energy principle for biological systems**](https://www.mdpi.com/1099-4300/14/11/2100) , (2012) by *Karl, Friston* [[bib]](bibtex.bib#L117-L128) 
 - [**The history of the future of the Bayesian brain**](https://www.sciencedirect.com/science/article/pii/S1053811911011657) , (2012) by *Friston, Karl* [[bib]](bibtex.bib#L139-L150) 
 - [**Free energy, value, and attractors**](https://www.hindawi.com/journals/cmmm/2012/937860/) , (2012) by *Friston, Karl and Ao, Ping* [[bib]](bibtex.bib#L151-L160) 
-* 
-Mathematical paper by Karl and Ping Ao which begins fleshing out formally the notion of desires as attractors
- * 
+ 
+ *Mathematical paper by Karl and Ping Ao which begins fleshing out formally the notion of desires as attractors* 
 - [**Action understanding and active inference**](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3491875/) , (2011) by *Friston, Karl, Mattout, J{\'e}r{\'e}mie and Kilner, James* [[bib]](bibtex.bib#L104-L115) 
-* 
-Goes deep into the neuroscientific intuitions behind why you might want to think about action as a predicted observation and not a latent variable for biological brains. Presents Karl's view that action happens primarily at the periphery through simple 'reflex arcs' while all the real work is done by the generative models generating predictions.
- * 
+ 
+ *Goes deep into the neuroscientific intuitions behind why you might want to think about action as a predicted observation and not a latent variable for biological brains. Presents Karl's view that action happens primarily at the periphery through simple 'reflex arcs' while all the real work is done by the generative models generating predictions.* 
 - [**Attention, uncertainty, and free-energy**](https://www.frontiersin.org/articles/10.3389/fnhum.2010.00215/full) , (2010) by *Feldman, Harriet and Friston, Karl* [[bib]](bibtex.bib#L162-L172) 
-* 
-Makes a conjectured link between precision in predictive coding and attention in the brain.
- * 
+ 
+ *Makes a conjectured link between precision in predictive coding and attention in the brain.* 
 - [**Generalised filtering**](https://www.hindawi.com/journals/mpe/2010/621670/) , (2010) by *Friston, Karl, Stephan, Klaas, Li, Baojuan and Daunizeau, Jean* [[bib]](bibtex.bib#L200-L209) 
 - [**Reinforcement learning or active inference?**](https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0006421) , (2009) by *Friston, Karl J, Daunizeau, Jean and Kiebel, Stefan J* [[bib]](bibtex.bib#L90-L101) 
-* 
-The earliest paper (I think) on active inference. Introduces the motivation behind the continuous state and time formulation of active inference. Shows how predictive coding can be used to learn actions as well as observations (by treating them the same)
- * 
+ 
+ *The earliest paper (I think) on active inference. Introduces the motivation behind the continuous state and time formulation of active inference. Shows how predictive coding can be used to learn actions as well as observations (by treating them the same)* 
 - [**Hierarchical models in the brain**](https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1000211) , (2008) by *Friston, Karl* [[bib]](bibtex.bib#L174-L185) 
-* 
-Presents the 'full-construct' predictive coding model with both hierarchies and generalised coordinates.
- * 
+ 
+ *Presents the 'full-construct' predictive coding model with both hierarchies and generalised coordinates.* 
 - [**DEM: a variational treatment of dynamic systems**](https://www.sciencedirect.com/science/article/pii/S1053811908001894?casa_token=RBtljR9mpKMAAAAA:EAAQB59MLINQl8q4it_Pxnz6EbRaqvO0mMey40hdf29Qy0kKkH69qWN24jnmhcOXamuXWBqFAG4) , (2008) by *Friston, Karl J, Trujillo-Barreto, N and Daunizeau, Jean* [[bib]](bibtex.bib#L187-L198) 
-* 
-Extends predictive coding to generalised coordinates, and derives the necessary inference algorithms for working with them -- i.e. DEM, dynamic expectation maximisation.
- * 
+ 
+ *Extends predictive coding to generalised coordinates, and derives the necessary inference algorithms for working with them -- i.e. DEM, dynamic expectation maximisation.* 
 - [**A free energy principle for the brain**](https://www.sciencedirect.com/science/article/pii/S092842570600060X?casa_token=rPwSn8wQvEkAAAAA:5QeLri0QzrjAC8QYtNljoqjn0nZzRJIoBso67Uw3eY9VSFdUqcIm4mkqPBNZCwYQM8PM_VdkFfE) , (2006) by *Friston, Karl, Kilner, James and Harrison, Lee* [[bib]](bibtex.bib#L51-L62) 
-* 
-Perhaps the earliest paper describing the FEP. Provides a great description of the fundamental intuitions behind the theory (in needs of living systems to reduce their internal entropy to keep conditions within homeostatic bounds)
- * 
+ 
+ *Perhaps the earliest paper describing the FEP. Provides a great description of the fundamental intuitions behind the theory (in needs of living systems to reduce their internal entropy to keep conditions within homeostatic bounds)* 
 - [**A theory of cortical responses**](https://royalsocietypublishing.org/doi/abs/10.1098/rstb.2005.1622?casa_token=9zU-Epc4Iw4AAAAA%3AmYQq9buUvH2tb1xtL8VXFp0oHtJVGZ_4MSymueoSBUreJAhsqEOB3D-fXJnSqMnbTYP3VBo0BxwHWYE) , (2005) by *Friston, Karl* [[bib]](bibtex.bib#L65-L76) 
-* 
-An early but complete description of predictive coding as an application of the FEP and variational inference under Gaussian and Laplace assumptions. Also surprisingly readable. This is core reading on predictive coding and the FEP
- * 
+ 
+ *An early but complete description of predictive coding as an application of the FEP and variational inference under Gaussian and Laplace assumptions. Also surprisingly readable. This is core reading on predictive coding and the FEP* 
 - [**Learning and inference in the brain**](https://www.sciencedirect.com/science/article/pii/S0893608003002454?casa_token=Z-HR_To6rxwAAAAA:88ducipot59VHoRHJu1Ej6Kz5oLn-RMooUV9rR1fnkH50D5aNvLNENIF2XBa_3tZ0izMX5U2ED8) , (2003) by *Friston, Karl* [[bib]](bibtex.bib#L78-L89) 
 
 ## Philosophical Analyses
@@ -108,57 +95,47 @@ Active Inference is a process theory of neurobiological function inspired by and
 
 ## Surveys and Tutorials
 - [**Active inference on discrete state-spaces: a synthesis**](https://arxiv.org/abs/2001.07203) , (2020) by *Da Costa, Lancelot, Parr, Thomas, Sajid, Noor, Veselic, Sebastijan, Neacsu, Victorita and Friston, Karl* [[bib]](bibtex.bib#L406-L413) 
-* 
-This is a great and thorough tutorial on discrete-state-space active inference. I would reccomend it to everybody new to the field.
- * 
+ 
+ *This is a great and thorough tutorial on discrete-state-space active inference. I would reccomend it to everybody new to the field.* 
 
 ## Discrete State Space Formulation
 - [**Sophisticated Inference**](https://arxiv.org/abs/2006.04120) , (2020) by *Friston, Karl, Da Costa, Lancelot, Hafner, Danijar, Hesp, Casper and Parr, Thomas* [[bib]](bibtex.bib#L554-L561) 
 - [**The relationship between dynamic programming and active inference: The discrete, finite-horizon case**](https://arxiv.org/abs/2009.08111) , (2020) by *Da Costa, Lancelot, Sajid, Noor, Parr, Thomas, Friston, Karl and Smith, Ryan* [[bib]](bibtex.bib#L571-L578) 
-* 
-Discusses the relationship between active inference and dynamic programming solutions to reinforcement learning problems (i.e. Q learning, value functions etc). Shows that they are largely equivalent except with different objectives (Expected Free Energy vs Expected Discounted Reward).
- * 
+ 
+ *Discusses the relationship between active inference and dynamic programming solutions to reinforcement learning problems (i.e. Q learning, value functions etc). Shows that they are largely equivalent except with different objectives (Expected Free Energy vs Expected Discounted Reward).* 
 - [**Active inference: demystified and compared**](https://ui.adsabs.harvard.edu/abs/2019arXiv190910863S/abstract) , (2019) by *Sajid, Noor, Ball, Philip J and Friston, Karl J* [[bib]](bibtex.bib#L562-L570) 
 - [**Deep temporal models and active inference**](https://www.sciencedirect.com/science/article/pii/S0149763416307096) , (2018) by *Friston, Karl J, Rosch, Richard, Parr, Thomas, Price, Cathy and Bowman, Howard* [[bib]](bibtex.bib#L477-L487) 
 - [**Active inference: a process theory**](https://www.mitpressjournals.org/doi/full/10.1162/NECO_a_00912) , (2017) by *Friston, Karl, FitzGerald, Thomas, Rigoli, Francesco, Schwartenbeck, Philipp and Pezzulo, Giovanni* [[bib]](bibtex.bib#L452-L463) 
-* 
-Provides a very good and thorough description of discrete-state-space active inference and ties its updates closely to neural physiology. I would reccomend this after the Da Costa introduction.
- * 
+ 
+ *Provides a very good and thorough description of discrete-state-space active inference and ties its updates closely to neural physiology. I would reccomend this after the Da Costa introduction.* 
 - [**Uncertainty, epistemics and active inference**](https://royalsocietypublishing.org/doi/full/10.1098/rsif.2017.0376) , (2017) by *Parr, Thomas and Friston, Karl J* [[bib]](bibtex.bib#L465-L476) 
 - [**Active inference and learning**](https://www.sciencedirect.com/science/article/pii/S0149763416301336) , (2016) by *Friston, Karl, FitzGerald, Thomas, Rigoli, Francesco, Schwartenbeck, Philipp, Pezzulo, Giovanni and others* [[bib]](bibtex.bib#L428-L438) 
 - [**Active inference and epistemic value**](https://www.tandfonline.com/doi/full/10.1080/17588928.2015.1020053?casa_token=IiMRlTIPAXUAAAAA%3ASvxdCeRv4yruAnjsNhletPuaWzdb8dfm-5s1YvTBaup1IgHNChHDKgCe1DY40DAvYHK6ZO4_guujAA) , (2015) by *Friston, Karl, Rigoli, Francesco, Ognibene, Dimitri, Mathys, Christoph, Fitzgerald, Thomas and Pezzulo, Giovanni* [[bib]](bibtex.bib#L415-L426) 
-* 
-Introduces the main intuitions behind active inference, as well as the crucial epistemic foraging behaviour of the expected free energy. Illustrated on a simple T-maze task.
- * 
+ 
+ *Introduces the main intuitions behind active inference, as well as the crucial epistemic foraging behaviour of the expected free energy. Illustrated on a simple T-maze task.* 
 - [**Active inference and agency: optimal control without cost functions**](https://link.springer.com/article/10.1007/s00422-012-0512-8) , (2012) by *Friston, Karl, Samothrakis, Spyridon and Montague, Read* [[bib]](bibtex.bib#L439-L450) 
-* 
-The first (I think) discrete-state-space paper on active inference. Notable for using the standard variational free energy as objective function and not the expected free energy. Describes some of the intuitions behind active inference.
- * 
+ 
+ *The first (I think) discrete-state-space paper on active inference. Notable for using the standard variational free energy as objective function and not the expected free energy. Describes some of the intuitions behind active inference.* 
 
 ## Continuous Time Formulation
 - [**Reinforcement learning or active inference?**](https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0006421) , (2009) by *Friston, Karl J, Daunizeau, Jean and Kiebel, Stefan J* [[bib]](bibtex.bib#L90-L101) 
-* 
-The earliest paper (I think) on active inference. Introduces the motivation behind the continuous state and time formulation of active inference. Shows how predictive coding can be used to learn actions as well as observations (by treating them the same)
- * 
+ 
+ *The earliest paper (I think) on active inference. Introduces the motivation behind the continuous state and time formulation of active inference. Shows how predictive coding can be used to learn actions as well as observations (by treating them the same)* 
 
 ## Message Passing and Free Energies
 - [**Whence the Expected Free Energy?**](https://arxiv.org/abs/2004.08128) , (2020) by *Millidge, Beren, Tschantz, Alexander and Buckley, Christopher L* [[bib]](bibtex.bib#L538-L545) 
-* 
-Discusses whether we can derive the expected free energy objective function on principled ground from the FEP, and discusses different potential objective functions for active inference.
- * 
+ 
+ *Discusses whether we can derive the expected free energy objective function on principled ground from the FEP, and discusses different potential objective functions for active inference.* 
 - [**On the Relationship Between Active Inference and Control as Inference**](https://arxiv.org/abs/2006.12964) , (2020) by *Millidge, Beren, Tschantz, Alexander, Seth, Anil K and Buckley, Christopher L* [[bib]](bibtex.bib#L592-L599) 
-* 
-Discusses the relationship between Active Inference and Control as Inference, a variational framework for understanding action selection which has emerged from RL.
- * 
+ 
+ *Discusses the relationship between Active Inference and Control as Inference, a variational framework for understanding action selection which has emerged from RL.* 
 - [**Neuronal message passing using Mean-field, Bethe, and Marginal approximations**](https://www.nature.com/articles/s41598-018-38246-3) , (2019) by *Parr, Thomas, Markovic, Dimitrije, Kiebel, Stefan J and Friston, Karl J* [[bib]](bibtex.bib#L500-L511) 
-* 
-Discusses in depth the different potential message passing inference algorithms which can be used to implement active inference on factor graphs.
- * 
+ 
+ *Discusses in depth the different potential message passing inference algorithms which can be used to implement active inference on factor graphs.* 
 - [**Generalised free energy and active inference**](https://link.springer.com/article/10.1007/s00422-019-00805-w) , (2019) by *Parr, Thomas and Friston, Karl J* [[bib]](bibtex.bib#L526-L537) 
 - [**Active inference, belief propagation, and the bethe approximation**](https://www.mitpressjournals.org/doi/abs/10.1162/neco_a_01108) , (2018) by *Schw{\"o}bel, Sarah, Kiebel, Stefan and Markovi{\'c}, Dimitrije* [[bib]](bibtex.bib#L513-L524) 
-* 
-Introduces the Bethe free energy, as a result of making the Bethe approximation instead of the mean-field variational assumption to derive the message passing algorithms.
- * 
+ 
+ *Introduces the Bethe free energy, as a result of making the Bethe approximation instead of the mean-field variational assumption to derive the message passing algorithms.* 
 - [**The graphical brain: belief propagation and active inference**](https://www.mitpressjournals.org/doi/full/10.1162/NETN_a_00018) , (2017) by *Friston, Karl J, Parr, Thomas and de Vries, Bert* [[bib]](bibtex.bib#L488-L499) 
 
  
