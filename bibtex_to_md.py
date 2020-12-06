@@ -203,25 +203,7 @@ if __name__ == '__main__':
     ################################### Create Readme ####################################
     def plot_titles(titles):
         return '\n' + "## " + titles[0] + '\n'
-    """
-    list_types = [["Classics", "Classic"],
-                ["Surveys", "Survey", "survey"],
-                ["Influentials", "Influential"],
-                ["New Settings or Metrics", "Setting", "Metric"],
-                ["Regularization Methods", "Regularization"],
-                ["Distillation Methods", "Distillation"],
-                ["Rehearsal Methods", "Rehearsal"],
-                ["Generative Replay Methods", "Generative Replay"],
-                ["Dynamic Architectures or Routing Methods", "Architectures", "Dynamic Architecture"],
-                ["Hybrid Methods", "Hybrid"],
-                ["Continual Few-Shot Learning", "Continual-Meta Learning"],
-                ["Meta-Continual Learning"],
-                ["Lifelong Reinforcement Learning", "Reinforcement"],
-                ["Continual Generative Modeling", "Generative Modeling"],
-                ["Applications"],
-                ["Thesis"],
-                ["Workshops", 'Workshop']]
-    """
+
     FEP_list_types = [["Surveys", "survey"],
                 ["Classics","classic"],
                 ["Philosophical Analyses","philosophy"],
