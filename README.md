@@ -63,11 +63,16 @@ This list is of papers focused specifically on the abstract mathematical form of
 - [**Thinking through other minds: A variational approach to cognition and culture**](https://royalsocietypublishing.org/doi/full/10.1098/rsif.2017.0685) , (2020) by *Veissi{\`e}re, Samuel PL, Constant, Axel, Ramstead, Maxwell JD, Friston, Karl J and Kirmayer, Laurence J* [[bib]](bibtex.bib#L233-L242) 
 - [**TTOM in action: Refining the variational approach to cognition and culture**](https://www.cambridge.org/core/journals/behavioral-and-brain-sciences/article/abs/ttom-in-action-refining-the-variational-approach-to-cognition-and-culture/ADD060A9EE6937A3104FA23290F2C519) , (2020) by *Veissi{\`e}re, Samuel PL, Constant, Axel, Ramstead, Maxwell JD, Friston, Karl J and Kirmayer, Laurence J* [[bib]](bibtex.bib#L243-L252) 
 - [**Predictions in the eye of the beholder: an active inference account of Watt governors**](https://www.mitpressjournals.org/doi/abs/10.1162/isal_a_00288) , (2020) by *Baltieri, Manuel, Buckley, Christopher L and Bruineberg, Jelle* [[bib]](bibtex.bib#L297-L306) 
+- [**From allostatic agents to counterfactual cognisers: active inference, biological regulation, and the origins of cognition**](https://link.springer.com/article/10.1007/s10539-020-09746-2) , (2020) by *Corcoran, Andrew W, Pezzulo, Giovanni and Hohwy, Jakob* [[bib]](bibtex.bib#L779-L790) 
 - [**What does the free energy principle tell us about the brain?**](https://arxiv.org/abs/1901.07945) , (2019) by *Gershman, Samuel J* [[bib]](bibtex.bib#L253-L260) 
 - [**Answering Schr{\"o}dinger's question: A free-energy formulation**](https://www.sciencedirect.com/science/article/pii/S1571064517301409) , (2018) by *Ramstead, Maxwell James D{\'e}sormeau, Badcock, Paul Benjamin and Friston, Karl John* [[bib]](bibtex.bib#L222-L232) 
 - [**The anticipating brain is not a scientist: the free-energy principle from an ecological-enactive perspective**](https://link.springer.com/article/10.1007/s11229-016-1239-1) , (2018) by *Bruineberg, Jelle, Kiverstein, Julian and Rietveld, Erik* [[bib]](bibtex.bib#L261-L272) 
 - [**Predictive processing and the representation wars**](https://link.springer.com/article/10.1007/s11023-017-9441-6) , (2018) by *Williams, Daniel* [[bib]](bibtex.bib#L273-L284) 
+- [**Active interoceptive inference and the emotional brain**](https://royalsocietypublishing.org/doi/full/10.1098/rstb.2016.0007) , (2016) by *Seth, Anil K and Friston, Karl J* [[bib]](bibtex.bib#L803-L814) 
+- [**Presence, objecthood, and the phenomenology of predictive perception**](https://www.tandfonline.com/doi/full/10.1080/17588928.2015.1026888?casa_token=IA7GL_oM2VAAAAAA%3AXkJ7HbhxHcW7qCdSWyRSerOo8iZevM3x_8QV1b7C7qAvAqJMveeq4IeGRBTCCbQOCJ6Ix9p70VkKww) , (2015) by *Seth, Anil K* [[bib]](bibtex.bib#L822-L833) 
+- **The cybernetic Bayesian brain**, (2014) by *Seth, Anil K* [[bib]](bibtex.bib#L815-L821) 
 - [**Whatever next? Predictive brains, situated agents, and the future of cognitive science**](https://www.cambridge.org/core/journals/behavioral-and-brain-sciences/article/whatever-next-predictive-brains-situated-agents-and-the-future-of-cognitive-science/33542C736E17E3D1D44E8D03BE5F4CD9) , (2013) by *Clark, Andy* [[bib]](bibtex.bib#L285-L296) 
+- [**Interoceptive inference, emotion, and the embodied self**](https://www.sciencedirect.com/science/article/pii/S1364661313002118) , (2013) by *Seth, Anil K* [[bib]](bibtex.bib#L791-L802) 
 
 ## Self-Organisation and Markov Blankets
 - [**Neural and phenotypic representation under the free-energy principle**](https://www.sciencedirect.com/science/article/pii/S0149763420306643?casa_token=16rC0ManFBUAAAAA:3mbntn5I7fObnA_Y397rvZbWrnUzkqmALD1LtS88tGrIRxbw9RQvU55XJuH-zKdBi6tPaN9faDM) , (2020) by *Ramstead, Maxwell JD, Hesp, Casper, Tschantz, Alexander, Smith, Ryan, Constant, Axel and Friston, Karl* [[bib]](bibtex.bib#L348-L356) 
@@ -130,6 +135,7 @@ Active Inference is a process theory of neurobiological function inspired by and
 - [**The State Space Formulation of Active Inference: Towards Brain-Inspired Robot Control**](https://repository.tudelft.nl/islandora/object/uuid:0f56c37c-d22b-478b-8a85-dca615a8f419) , (2019) by *Grimbergen, Sherin* [[bib]](bibtex.bib#L710-L716) 
  
  *An excellent overview and fantastic piece of work on the linear time-indepenent formulation of active inference and its relation to classical control theory.* 
+- **Hierarchical active inference: A theory of motivated control**, (2018) by *Pezzulo, Giovanni, Rigoli, Francesco and Friston, Karl J* [[bib]](bibtex.bib#L768-L778) 
 - [**An active inference implementation of phototaxis**](https://www.mitpressjournals.org/doi/abs/10.1162/isal_a_011) , (2017) by *Baltieri, Manuel and Buckley, Christopher L* [[bib]](bibtex.bib#L659-L668) 
  
  *Active inference in plants!!!* 
