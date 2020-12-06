@@ -116,20 +116,36 @@ def get_md(DB, item, key, add_comments):
 
 
 def get_outline(list_classif, filename):
-    str_outline = "# Continual Learning Literature \n"
+    str_outline = "# FEP and Active Inference Paper Repository \n"
 
-    str_outline += "This repository is maintained by Massimo Caccia and Timothée Lesort don't hesitate to send us an email to collaborate or fix some entries ({massimo.p.caccia , t.lesort} at gmail.com). The automation script of this repo is adapted from [Automatic_Awesome_Bibliography](https://github.com/TLESORT/Automatic_Awesome_Bibliography).\n\n For contributing to the repository please follow the process [here](https://github.com/optimass/continual_learning_papers/blob/master/scripts/README.md) \n\n"
+    str_outline += "This repository provides a list of papers that I believe are interesting and influential on the Free-Energy-Principle, or in Active Inference. If you believe I have missed any papers, please contact me or make a pull request with the information about the paper. I will be happy to include it. \n\n"
 
-    str_outline += "## Outline \n"
+    str_outline += "## FEP Outline \n"
 
+    str_outline += "This list is of papers focused specifically on the abstract mathematical form of the Free-Energy-Principle (FEP)"
+    str_outline += "\n \n"
     for item in list_classif:
-        str_outline += "- [" + item[0] + "](https://github.com/optimass/continual_learning_papers/blob/master/" + filename + "#" \
+        str_outline += "- [" + item[0] + "](https://github.com/BerenMillidge/FEP_Active_Inference_Papers/blob/master/" + filename + "#" \
+                       + item[0].replace(" ", "-").lower() + ')\n'
+
+    return str_outline
+
+def get_AIF_outline(list_classif, filename):
+
+    str_outline = " \n \n"
+
+    str_outline += "## Active Inference Outline \n"
+
+    str_outline += "Active Inference is a process theory of neurobiological function inspired by and closely related to the FEP. However Active Inference stands independent of the FEP and can be true even if the FEP is not, and similarly can potentially be falsified without impacting the FEP. The core idea behind Active Inference is the idea that the brain performs both action and perception by variational inference on a unified objective function"
+    str_outline += "\n \n"
+    for item in list_classif:
+        str_outline += "- [" + item[0] + "](https://github.com/BerenMillidge/FEP_Active_Inference_Papers/blob/master/" + filename + "#" \
                        + item[0].replace(" ", "-").lower() + ')\n'
 
     return str_outline
 
 
-def generate_md_file(DB, list_classif, key, plot_title_fct, filename, add_comments=True):
+def generate_md_file(DB, list_classif, AIF_list_classif, key, plot_title_fct, filename, add_comments=True):
     """
     :param DB: list of dictionnary with bibtex
     :param list_classif: list with categories we want to put inside md file
@@ -140,10 +156,22 @@ def generate_md_file(DB, list_classif, key, plot_title_fct, filename, add_commen
     """
 
     all_in_one_str = ""
+    # FEP section
     all_in_one_str += get_outline(list_classif, filename)
 
     for item in list_classif:
 
+        str = get_md(DB, item, key, add_comments)
+
+        if str != "":
+            all_in_one_str += plot_title_fct(item)
+            all_in_one_str += str
+
+    # Active Inference section
+    all_in_one_str += get_AIF_outline(AIF_list_classif, filename)
+    
+    for item in AIF_list_classif:
+    
         str = get_md(DB, item, key, add_comments)
 
         if str != "":
@@ -165,7 +193,7 @@ if __name__ == '__main__':
     ################################### Create Readme ####################################
     def plot_titles(titles):
         return '\n' + "## " + titles[0] + '\n'
-"""
+    """
     list_types = [["Classics", "Classic"],
                 ["Surveys", "Survey", "survey"],
                 ["Influentials", "Influential"],
@@ -183,15 +211,17 @@ if __name__ == '__main__':
                 ["Applications"],
                 ["Thesis"],
                 ["Workshops", 'Workshop']]
-"""
-    FEP_list_types = [["Surveys", "Survey"],
+    """
+    FEP_list_types = [["Surveys", "survey"],
                 ["Classics","classic"],
                 ["Philosophical Analyses","philosophy"],
-                ["Self-Organisation","self-organisation"],
+                ["Self-Organisation and Markov Blankets","self-organisation"],
                 ["Information Geometry","information_geometry"]]
-    AIF_list_types =[["Surveys and Tutorials","survey","tutorial"],
+    AIF_list_types =[["Surveys and Tutorials","tutorial"],
                     ["Discrete State Space Formulation","discrete"],
                     ["Continuous Time Formulation","continuous"],
+                    ["Message Passing and Free Energies","free_energy"],
+                    ["Active Inference for Control Theory/Robotics","robotics"],
                     ["Deep Active Inference", "deep"]]
 
-    generate_md_file(DB=bib_db, list_classif=list_types, key="keywords", plot_title_fct=plot_titles, filename= "README.md", add_comments=True)
+    generate_md_file(DB=bib_db, list_classif=FEP_list_types,AIF_list_classif=AIF_list_types, key="keywords", plot_title_fct=plot_titles, filename= "README.md", add_comments=True)
