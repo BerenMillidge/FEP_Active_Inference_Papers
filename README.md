@@ -99,11 +99,13 @@ Active Inference is a process theory of neurobiological function inspired by and
  *This is a great and thorough tutorial on discrete-state-space active inference. I would reccomend it to everybody new to the field.* 
 
 ## Discrete State Space Formulation
-- [**Sophisticated Inference**](https://arxiv.org/abs/2006.04120) , (2020) by *Friston, Karl, Da Costa, Lancelot, Hafner, Danijar, Hesp, Casper and Parr, Thomas* [[bib]](bibtex.bib#L554-L561) 
-- [**The relationship between dynamic programming and active inference: The discrete, finite-horizon case**](https://arxiv.org/abs/2009.08111) , (2020) by *Da Costa, Lancelot, Sajid, Noor, Parr, Thomas, Friston, Karl and Smith, Ryan* [[bib]](bibtex.bib#L571-L578) 
+- [**Sophisticated Inference**](https://arxiv.org/abs/2006.04120) , (2020) by *Friston, Karl, Da Costa, Lancelot, Hafner, Danijar, Hesp, Casper and Parr, Thomas* [[bib]](bibtex.bib#L555-L562) 
+ 
+ *Introduces the next stage of active inference. 'Sophisticated' active inference, where agents make decisions not just on their beliefs about the future, but on how their beliefs will change in the future. Allows the simulation of real epistemic value -- i.e. act so as to change your beliefs in the future.* 
+- [**The relationship between dynamic programming and active inference: The discrete, finite-horizon case**](https://arxiv.org/abs/2009.08111) , (2020) by *Da Costa, Lancelot, Sajid, Noor, Parr, Thomas, Friston, Karl and Smith, Ryan* [[bib]](bibtex.bib#L573-L580) 
  
  *Discusses the relationship between active inference and dynamic programming solutions to reinforcement learning problems (i.e. Q learning, value functions etc). Shows that they are largely equivalent except with different objectives (Expected Free Energy vs Expected Discounted Reward).* 
-- [**Active inference: demystified and compared**](https://ui.adsabs.harvard.edu/abs/2019arXiv190910863S/abstract) , (2019) by *Sajid, Noor, Ball, Philip J and Friston, Karl J* [[bib]](bibtex.bib#L562-L570) 
+- [**Active inference: demystified and compared**](https://ui.adsabs.harvard.edu/abs/2019arXiv190910863S/abstract) , (2019) by *Sajid, Noor, Ball, Philip J and Friston, Karl J* [[bib]](bibtex.bib#L564-L572) 
 - [**Deep temporal models and active inference**](https://www.sciencedirect.com/science/article/pii/S0149763416307096) , (2018) by *Friston, Karl J, Rosch, Richard, Parr, Thomas, Price, Cathy and Bowman, Howard* [[bib]](bibtex.bib#L477-L487) 
 - [**Active inference: a process theory**](https://www.mitpressjournals.org/doi/full/10.1162/NECO_a_00912) , (2017) by *Friston, Karl, FitzGerald, Thomas, Rigoli, Francesco, Schwartenbeck, Philipp and Pezzulo, Giovanni* [[bib]](bibtex.bib#L452-L463) 
  
@@ -118,25 +120,60 @@ Active Inference is a process theory of neurobiological function inspired by and
  *The first (I think) discrete-state-space paper on active inference. Notable for using the standard variational free energy as objective function and not the expected free energy. Describes some of the intuitions behind active inference.* 
 
 ## Continuous Time Formulation
+- [**On Kalman-Bucy filters, linear quadratic control and active inference**](https://arxiv.org/abs/2005.06269) , (2020) by *Baltieri, Manuel and Buckley, Christopher L* [[bib]](bibtex.bib#L683-L690) 
+- [**PID control as a process of active inference with linear generative models**](https://www.mdpi.com/1099-4300/21/3/257) , (2019) by *Baltieri, Manuel and Buckley, Christopher L* [[bib]](bibtex.bib#L670-L681) 
+ 
+ *Active inference under a linear gaussian generative model can replicate PID, but also provide a natural method for learning the tuning coefficients (by understanding them as precisions).* 
+- [**Application of the Free Energy Principle to Estimation and Control**](https://arxiv.org/abs/1910.09823) , (2019) by *van de Laar, Thijs, {\"O}z{\c{c}}elikkale, Ay{\c{c}}a and Wymeersch, Henk* [[bib]](bibtex.bib#L700-L707) 
+ 
+ *Another approach to understanding how active inference relates to and extends classical control theory methods.* 
+- [**The State Space Formulation of Active Inference: Towards Brain-Inspired Robot Control**](https://repository.tudelft.nl/islandora/object/uuid:0f56c37c-d22b-478b-8a85-dca615a8f419) , (2019) by *Grimbergen, Sherin* [[bib]](bibtex.bib#L709-L715) 
+ 
+ *An excellent overview and fantastic piece of work on the linear time-indepenent formulation of active inference and its relation to classical control theory.* 
+- [**An active inference implementation of phototaxis**](https://www.mitpressjournals.org/doi/abs/10.1162/isal_a_011) , (2017) by *Baltieri, Manuel and Buckley, Christopher L* [[bib]](bibtex.bib#L659-L668) 
 - [**Reinforcement learning or active inference?**](https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0006421) , (2009) by *Friston, Karl J, Daunizeau, Jean and Kiebel, Stefan J* [[bib]](bibtex.bib#L90-L101) 
  
  *The earliest paper (I think) on active inference. Introduces the motivation behind the continuous state and time formulation of active inference. Shows how predictive coding can be used to learn actions as well as observations (by treating them the same)* 
 
 ## Message Passing and Free Energies
-- [**Whence the Expected Free Energy?**](https://arxiv.org/abs/2004.08128) , (2020) by *Millidge, Beren, Tschantz, Alexander and Buckley, Christopher L* [[bib]](bibtex.bib#L538-L545) 
+- [**Whence the Expected Free Energy?**](https://arxiv.org/abs/2004.08128) , (2020) by *Millidge, Beren, Tschantz, Alexander and Buckley, Christopher L* [[bib]](bibtex.bib#L539-L546) 
  
  *Discusses whether we can derive the expected free energy objective function on principled ground from the FEP, and discusses different potential objective functions for active inference.* 
-- [**On the Relationship Between Active Inference and Control as Inference**](https://arxiv.org/abs/2006.12964) , (2020) by *Millidge, Beren, Tschantz, Alexander, Seth, Anil K and Buckley, Christopher L* [[bib]](bibtex.bib#L592-L599) 
+- [**On the Relationship Between Active Inference and Control as Inference**](https://arxiv.org/abs/2006.12964) , (2020) by *Millidge, Beren, Tschantz, Alexander, Seth, Anil K and Buckley, Christopher L* [[bib]](bibtex.bib#L594-L601) 
  
  *Discusses the relationship between Active Inference and Control as Inference, a variational framework for understanding action selection which has emerged from RL.* 
-- [**Neuronal message passing using Mean-field, Bethe, and Marginal approximations**](https://www.nature.com/articles/s41598-018-38246-3) , (2019) by *Parr, Thomas, Markovic, Dimitrije, Kiebel, Stefan J and Friston, Karl J* [[bib]](bibtex.bib#L500-L511) 
+- [**Neuronal message passing using Mean-field, Bethe, and Marginal approximations**](https://www.nature.com/articles/s41598-018-38246-3) , (2019) by *Parr, Thomas, Markovic, Dimitrije, Kiebel, Stefan J and Friston, Karl J* [[bib]](bibtex.bib#L501-L512) 
  
  *Discusses in depth the different potential message passing inference algorithms which can be used to implement active inference on factor graphs.* 
-- [**Generalised free energy and active inference**](https://link.springer.com/article/10.1007/s00422-019-00805-w) , (2019) by *Parr, Thomas and Friston, Karl J* [[bib]](bibtex.bib#L526-L537) 
-- [**Active inference, belief propagation, and the bethe approximation**](https://www.mitpressjournals.org/doi/abs/10.1162/neco_a_01108) , (2018) by *Schw{\"o}bel, Sarah, Kiebel, Stefan and Markovi{\'c}, Dimitrije* [[bib]](bibtex.bib#L513-L524) 
+- [**Generalised free energy and active inference**](https://link.springer.com/article/10.1007/s00422-019-00805-w) , (2019) by *Parr, Thomas and Friston, Karl J* [[bib]](bibtex.bib#L527-L538) 
+- [**Active inference, belief propagation, and the bethe approximation**](https://www.mitpressjournals.org/doi/abs/10.1162/neco_a_01108) , (2018) by *Schw{\"o}bel, Sarah, Kiebel, Stefan and Markovi{\'c}, Dimitrije* [[bib]](bibtex.bib#L514-L525) 
  
  *Introduces the Bethe free energy, as a result of making the Bethe approximation instead of the mean-field variational assumption to derive the message passing algorithms.* 
 - [**The graphical brain: belief propagation and active inference**](https://www.mitpressjournals.org/doi/full/10.1162/NETN_a_00018) , (2017) by *Friston, Karl J, Parr, Thomas and de Vries, Bert* [[bib]](bibtex.bib#L488-L499) 
+ 
+ *Introduces the general factor-graph message passing viewpoint on active inference. Also introduces hierarchical active inference models.* 
+
+## Active Inference for Control Theory/Robotics
+- [**A novel adaptive controller for robot manipulators based on active inference**](https://ieeexplore.ieee.org/abstract/document/9000729/?casa_token=OBL93SqhogUAAAAA:6w99NtC-Fk7P0tIiXx6QmTNsWnPS-GKK0OtsJEz-HWgniXwpY0Rtue_qlc5Fe9HQ2vj0ropx7hM) , (2020) by *Pezzato, Corrado, Ferrari, Riccardo and Corbato, Carlos Hern{\'a}ndez* [[bib]](bibtex.bib#L755-L766) 
+- [**Active inference body perception and action for humanoid robots**](https://arxiv.org/abs/1906.03022) , (2019) by *Oliver, Guillermo, Lanillos, Pablo and Cheng, Gordon* [[bib]](bibtex.bib#L729-L736) 
+- [**End-to-end pixel-based deep active inference for body perception and action**](https://arxiv.org/abs/2001.05847) , (2019) by *Sancaktar, Cansu and Lanillos, Pablo* [[bib]](bibtex.bib#L737-L744) 
+- [**Active inference for robot control: A factor graph approach**](https://pdfs.semanticscholar.org/e177/b21b0a7f43ad3969ceb42bd8f1d912ea8d43.pdf) , (2019) by *Vanderbroeck, Mees, Baioumy, Mohamed, van der Lans, Daan, de Rooij, Rens and van der Werf, Tiis* [[bib]](bibtex.bib#L745-L754) 
+- [**Active inference and robot control: a case study**](https://royalsocietypublishing.org/doi/full/10.1098/rsif.2016.0616) , (2016) by *Pio-Lopez, L{\'e}o, Nizard, Ange, Friston, Karl and Pezzulo, Giovanni* [[bib]](bibtex.bib#L717-L728) 
+
+## Deep Active Inference
+- [**Reinforcement Learning through Active Inference**](https://arxiv.org/abs/2002.12636) , (2020) by *Tschantz, Alexander, Millidge, Beren, Seth, Anil K and Buckley, Christopher L* [[bib]](bibtex.bib#L604-L611) 
+ 
+ *Demonstrates that the exploration afforded by the Expected Free Energy Objective is useful in a deep reinforcement learning setting. Also maintains uncertainty through model ensembles applied in a model-based RL setting.* 
+- [**Scaling active inference**](https://ieeexplore.ieee.org/abstract/document/9207382/?casa_token=TfYG9cq3UvwAAAAA:Fn2oE7PCTGHlEN0jPQQE4P-qBiO_V-7xRFXXqYn7ubVoZeoiBd6ViBAxWf1L7j-R1wiKEOKvaXQ) , (2020) by *Tschantz, Alexander, Baltieri, Manuel, Seth, Anil K and Buckley, Christopher L* [[bib]](bibtex.bib#L614-L623) 
+ 
+ *Implements Deep Active Inference in a model-based RL setting using explicit planning with a transition model.* 
+- [**Deep active inference as variational policy gradients**](https://www.sciencedirect.com/science/article/pii/S0022249620300298?casa_token=GQLxvJzk3zMAAAAA:uotM5EqPWP9SIUV-5N8vvNnkVWSqFlS8W03MZ_W9GYCoyhWGRAhN9YmGjiTIaxCGHd4iwrjzElg) , (2020) by *Millidge, Beren* [[bib]](bibtex.bib#L625-L635) 
+ 
+ *Implements deep active inference in a model-free policy gradient setting by amortising the learning of the expected-free-energy value function. Uses a transition model for the state-information gain term in the expected free energy.* 
+- [**Deep active inference agents using Monte-Carlo methods**](https://arxiv.org/abs/2006.04176) , (2020) by *Fountas, Zafeirios, Sajid, Noor, Mediano, Pedro AM and Friston, Karl* [[bib]](bibtex.bib#L651-L658) 
+- [**Deep active inference**](https://link.springer.com/article/10.1007/s00422-018-0785-7) , (2018) by *Ueltzh{\"o}ffer, Kai* [[bib]](bibtex.bib#L637-L648) 
+ 
+ *The first paper to try combining active inference with deep neural networks. Demonstrates the importance of the exploratory terms of the EFE to solve the mountain-car problem.* 
 
  
 ## Contributing 
