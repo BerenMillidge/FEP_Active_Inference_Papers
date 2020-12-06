@@ -120,17 +120,19 @@ Active Inference is a process theory of neurobiological function inspired by and
  *The first (I think) discrete-state-space paper on active inference. Notable for using the standard variational free energy as objective function and not the expected free energy. Describes some of the intuitions behind active inference.* 
 
 ## Continuous Time Formulation
-- [**On Kalman-Bucy filters, linear quadratic control and active inference**](https://arxiv.org/abs/2005.06269) , (2020) by *Baltieri, Manuel and Buckley, Christopher L* [[bib]](bibtex.bib#L683-L690) 
-- [**PID control as a process of active inference with linear generative models**](https://www.mdpi.com/1099-4300/21/3/257) , (2019) by *Baltieri, Manuel and Buckley, Christopher L* [[bib]](bibtex.bib#L670-L681) 
+- [**On Kalman-Bucy filters, linear quadratic control and active inference**](https://arxiv.org/abs/2005.06269) , (2020) by *Baltieri, Manuel and Buckley, Christopher L* [[bib]](bibtex.bib#L684-L691) 
+- [**PID control as a process of active inference with linear generative models**](https://www.mdpi.com/1099-4300/21/3/257) , (2019) by *Baltieri, Manuel and Buckley, Christopher L* [[bib]](bibtex.bib#L671-L682) 
  
  *Active inference under a linear gaussian generative model can replicate PID, but also provide a natural method for learning the tuning coefficients (by understanding them as precisions).* 
-- [**Application of the Free Energy Principle to Estimation and Control**](https://arxiv.org/abs/1910.09823) , (2019) by *van de Laar, Thijs, {\"O}z{\c{c}}elikkale, Ay{\c{c}}a and Wymeersch, Henk* [[bib]](bibtex.bib#L700-L707) 
+- [**Application of the Free Energy Principle to Estimation and Control**](https://arxiv.org/abs/1910.09823) , (2019) by *van de Laar, Thijs, {\"O}z{\c{c}}elikkale, Ay{\c{c}}a and Wymeersch, Henk* [[bib]](bibtex.bib#L701-L708) 
  
  *Another approach to understanding how active inference relates to and extends classical control theory methods.* 
-- [**The State Space Formulation of Active Inference: Towards Brain-Inspired Robot Control**](https://repository.tudelft.nl/islandora/object/uuid:0f56c37c-d22b-478b-8a85-dca615a8f419) , (2019) by *Grimbergen, Sherin* [[bib]](bibtex.bib#L709-L715) 
+- [**The State Space Formulation of Active Inference: Towards Brain-Inspired Robot Control**](https://repository.tudelft.nl/islandora/object/uuid:0f56c37c-d22b-478b-8a85-dca615a8f419) , (2019) by *Grimbergen, Sherin* [[bib]](bibtex.bib#L710-L716) 
  
  *An excellent overview and fantastic piece of work on the linear time-indepenent formulation of active inference and its relation to classical control theory.* 
 - [**An active inference implementation of phototaxis**](https://www.mitpressjournals.org/doi/abs/10.1162/isal_a_011) , (2017) by *Baltieri, Manuel and Buckley, Christopher L* [[bib]](bibtex.bib#L659-L668) 
+ 
+ *Active inference in plants!!!* 
 - [**Reinforcement learning or active inference?**](https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0006421) , (2009) by *Friston, Karl J, Daunizeau, Jean and Kiebel, Stefan J* [[bib]](bibtex.bib#L90-L101) 
  
  *The earliest paper (I think) on active inference. Introduces the motivation behind the continuous state and time formulation of active inference. Shows how predictive coding can be used to learn actions as well as observations (by treating them the same)* 
@@ -154,11 +156,11 @@ Active Inference is a process theory of neurobiological function inspired by and
  *Introduces the general factor-graph message passing viewpoint on active inference. Also introduces hierarchical active inference models.* 
 
 ## Active Inference for Control Theory/Robotics
-- [**A novel adaptive controller for robot manipulators based on active inference**](https://ieeexplore.ieee.org/abstract/document/9000729/?casa_token=OBL93SqhogUAAAAA:6w99NtC-Fk7P0tIiXx6QmTNsWnPS-GKK0OtsJEz-HWgniXwpY0Rtue_qlc5Fe9HQ2vj0ropx7hM) , (2020) by *Pezzato, Corrado, Ferrari, Riccardo and Corbato, Carlos Hern{\'a}ndez* [[bib]](bibtex.bib#L755-L766) 
-- [**Active inference body perception and action for humanoid robots**](https://arxiv.org/abs/1906.03022) , (2019) by *Oliver, Guillermo, Lanillos, Pablo and Cheng, Gordon* [[bib]](bibtex.bib#L729-L736) 
-- [**End-to-end pixel-based deep active inference for body perception and action**](https://arxiv.org/abs/2001.05847) , (2019) by *Sancaktar, Cansu and Lanillos, Pablo* [[bib]](bibtex.bib#L737-L744) 
-- [**Active inference for robot control: A factor graph approach**](https://pdfs.semanticscholar.org/e177/b21b0a7f43ad3969ceb42bd8f1d912ea8d43.pdf) , (2019) by *Vanderbroeck, Mees, Baioumy, Mohamed, van der Lans, Daan, de Rooij, Rens and van der Werf, Tiis* [[bib]](bibtex.bib#L745-L754) 
-- [**Active inference and robot control: a case study**](https://royalsocietypublishing.org/doi/full/10.1098/rsif.2016.0616) , (2016) by *Pio-Lopez, L{\'e}o, Nizard, Ange, Friston, Karl and Pezzulo, Giovanni* [[bib]](bibtex.bib#L717-L728) 
+- [**A novel adaptive controller for robot manipulators based on active inference**](https://ieeexplore.ieee.org/abstract/document/9000729/?casa_token=OBL93SqhogUAAAAA:6w99NtC-Fk7P0tIiXx6QmTNsWnPS-GKK0OtsJEz-HWgniXwpY0Rtue_qlc5Fe9HQ2vj0ropx7hM) , (2020) by *Pezzato, Corrado, Ferrari, Riccardo and Corbato, Carlos Hern{\'a}ndez* [[bib]](bibtex.bib#L756-L767) 
+- [**Active inference body perception and action for humanoid robots**](https://arxiv.org/abs/1906.03022) , (2019) by *Oliver, Guillermo, Lanillos, Pablo and Cheng, Gordon* [[bib]](bibtex.bib#L730-L737) 
+- [**End-to-end pixel-based deep active inference for body perception and action**](https://arxiv.org/abs/2001.05847) , (2019) by *Sancaktar, Cansu and Lanillos, Pablo* [[bib]](bibtex.bib#L738-L745) 
+- [**Active inference for robot control: A factor graph approach**](https://pdfs.semanticscholar.org/e177/b21b0a7f43ad3969ceb42bd8f1d912ea8d43.pdf) , (2019) by *Vanderbroeck, Mees, Baioumy, Mohamed, van der Lans, Daan, de Rooij, Rens and van der Werf, Tiis* [[bib]](bibtex.bib#L746-L755) 
+- [**Active inference and robot control: a case study**](https://royalsocietypublishing.org/doi/full/10.1098/rsif.2016.0616) , (2016) by *Pio-Lopez, L{\'e}o, Nizard, Ange, Friston, Karl and Pezzulo, Giovanni* [[bib]](bibtex.bib#L718-L729) 
 
 ## Deep Active Inference
 - [**Reinforcement Learning through Active Inference**](https://arxiv.org/abs/2002.12636) , (2020) by *Tschantz, Alexander, Millidge, Beren, Seth, Anil K and Buckley, Christopher L* [[bib]](bibtex.bib#L604-L611) 
