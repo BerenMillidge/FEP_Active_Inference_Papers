@@ -97,6 +97,7 @@ If you are just starting out, I reccomend reading all the papers in the 'Survey'
 - [**Markov blankets in the brain**](https://arxiv.org/abs/2006.02741) , (2020) by *Hipolito, Ines, Ramstead, Maxwell, Convertino, Laura, Bhat, Anjali, Friston, Karl and Parr, Thomas* [[bib]](bibtex.bib#L380-L387) 
 - [**Modules or Mean-Fields?**](https://www.mdpi.com/1099-4300/22/5/552) , (2020) by *Parr, Thomas, Sajid, Noor and Friston, Karl J* [[bib]](bibtex.bib#L388-L399) 
 - [**Biological self-organisation and Markov blankets**](https://www.biorxiv.org/content/10.1101/227181v1.abstract) , (2017) by *Palacios, Ensor Rafael, Razi, Adeel, Parr, Thomas, Kirchhoff, Michael and Friston, Karl* [[bib]](bibtex.bib#L400-L409) 
+- [**The Emperor’s New Markov Blankets**](http://philsci-archive.pitt.edu/18467/) , (2020) by *Bruineberg, Jelle, Dolega, Krzysztof, Dewhurst, Joe and Baltieri, Manuel* [[bib]](bibtex.bib#L564-L570) 
 
 ## Information Geometry
 - [**Markov blankets, information geometry and stochastic thermodynamics**](https://royalsocietypublishing.org/doi/full/10.1098/rsta.2019.0159) , (2020) by *Parr, Thomas, Da Costa, Lancelot and Friston, Karl* [[bib]](bibtex.bib#L410-L421) 
