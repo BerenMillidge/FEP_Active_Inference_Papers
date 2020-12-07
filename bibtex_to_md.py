@@ -156,7 +156,7 @@ def get_AIF_outline(list_classif, filename):
 def get_acknowledgements():
     str_outline = "\n \n"
     str_outline += "## Acknowledgements \n \n"
-    str_outline += "Many thanks to @conorheins for his helpful suggestions. \n \n"
+    str_outline += "Many thanks to @conorheins, Tomasz Korbak, and Manuel Baltieri for their helpful suggestions. \n \n"
     return str_outline
 
 def get_footnote_string():
