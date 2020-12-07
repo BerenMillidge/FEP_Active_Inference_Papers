@@ -153,9 +153,15 @@ def get_AIF_outline(list_classif, filename):
 
     return str_outline
 
+def get_acknowledgements():
+    str_outline = "\n \n"
+    str_outline += "## Acknowledgements \n \n"
+    str_outline += "Many thanks to @conorheins for his helpful suggestions. \n \n"
+    return str_outline
+
 def get_footnote_string():
     str_outline = "\n \n"
-    str_outline += "## Contributing \n"
+    str_outline += "## Contributing \n \n"
     str_outline += "To contribute, please make pull requests adding entries to the bibtex file.  \n \n The README file was generated from bibtex using the `bibtex_to_md.py` file. \n The keywords to use for each classification (Survey, Discrete-state-space etc) can be found at the bottom of the .py file. \n"
     str_outline += "\n \n"
     str_outline += "*This code and structure is heavily inspired by https://github.com/optimass/continual_learning_papers.*"
@@ -195,6 +201,7 @@ def generate_md_file(DB, list_classif, AIF_list_classif, key, plot_title_fct, fi
             all_in_one_str += plot_title_fct(item)
             all_in_one_str += str
 
+    all_in_one_str += get_acknowledgements()
     all_in_one_str += get_footnote_string()
 
     f = open(filename, "w")

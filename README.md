@@ -209,7 +209,14 @@ The task of inferring actions (requiring detailed models of future outcomes give
 - [**Deep active inference agents using Monte-Carlo methods**](https://arxiv.org/abs/2006.04176) , (2020) by *Fountas, Zafeirios, Sajid, Noor, Mediano, Pedro AM and Friston, Karl* [[bib]](bibtex.bib#L666-L673) 
 
  
+## Acknowledgements 
+ 
+Many thanks to @conorheins for his helpful suggestions. 
+ 
+
+ 
 ## Contributing 
+ 
 To contribute, please make pull requests adding entries to the bibtex file.  
  
  The README file was generated from bibtex using the `bibtex_to_md.py` file. 
