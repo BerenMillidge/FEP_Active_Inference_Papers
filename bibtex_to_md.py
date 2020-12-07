@@ -122,7 +122,7 @@ def get_outline(list_classif, filename):
 
     str_outline += "## FEP Outline \n"
 
-    str_outline += "This list is of papers focused specifically on the abstract mathematical form of the Free-Energy-Principle (FEP)"
+    str_outline += "This list is of papers focused specifically on the abstract mathematical formulation of the Free-Energy-Principle (FEP). The FEP "
     str_outline += "\n \n"
     for item in list_classif:
         str_outline += "- [" + item[0] + "](https://github.com/BerenMillidge/FEP_Active_Inference_Papers/blob/master/" + filename + "#" \
@@ -136,7 +136,11 @@ def get_AIF_outline(list_classif, filename):
 
     str_outline += "## Active Inference Outline \n"
 
-    str_outline += "Active Inference is a process theory of neurobiological function inspired by and closely related to the FEP. However Active Inference stands independent of the FEP and can be true even if the FEP is not, and similarly can potentially be falsified without impacting the FEP. The core idea behind Active Inference is the idea that the brain performs both action and perception by variational inference on a unified objective function"
+    str_outline += "Active Inference is a process theory of neurobiological function inspired by and closely related to the FEP. However Active Inference stands independent of the FEP and can be true even if the FEP is not, and similarly can potentially be falsified without impacting the FEP. The core idea behind Active Inference is the idea that the brain performs both action and perception by variational inference on a unified objective function. \n"
+    str_outline += "In effect, the key idea behind active inference is that our brains possess powerful probabilistic generative models and inference engines, and that to select actions, we repurpose this powerful capacity we use for perception to also *infer* potential actions. Hence *Active* Inference. \n"
+    str_outline += "This high-level description leaves open the exact *type* of models and inference being used for action inference in the brain. The active inference literature contains three clear strands of work, which correspond to different assumptions on the exact form of generative models which are proposed to be utilized by the brain. *Discrete* active inference focuses on models of discrete state-spaces parametrised by categorical distributions and transition matrices. *Continuous* active inference focuses on the continuous time case with (generally) linear dynamics, and *Deep* active inference focuses on using deep neural networks to 'scale up' active inference by amortising probabilistic distributions with learned maps. \n"
+    str_outline += "The discrete-state-space work has close similarities with bandit-problems and neuroscience tasks and forms a tractable test-bed to understand different kinds of behaviour. Most of the work of creating active inference models of brain function (or dysfunction) lies within this paradigm. Continuous active inference, which is being used for robot control, has close links to classical control theory, while Deep active inference has close links with reinforcement learning and machine learning."
+    str_outline += "The task of inferring actions (requiring detailed models of future outcomes given these actions), is a subtly more complex task than simply inferring the immediate causes of sensory data as in perceptual inference. It therefore requires different objective functionals (the *expected* free energy) and potentially more advanced message-passing inference algorithms. This work is summarised in the 'Message Passing and Free Energies' section. \n"
     str_outline += "\n \n"
     for item in list_classif:
         str_outline += "- [" + item[0] + "](https://github.com/BerenMillidge/FEP_Active_Inference_Papers/blob/master/" + filename + "#" \
