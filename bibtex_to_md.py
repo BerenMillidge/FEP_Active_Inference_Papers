@@ -1,5 +1,6 @@
 import os
 import bibtexparser
+import collections
 
 ### utility function ###
 
@@ -98,7 +99,8 @@ def get_md(DB, item, key, add_comments):
 
     all_str = ""
 
-    list_entry = {}
+    #list_entry = {}
+    list_entry = collections.OrderedDict()
 
     number_of_entries = len(DB.entries)
     for i in range(number_of_entries):
@@ -108,7 +110,8 @@ def get_md(DB, item, key, add_comments):
                 list_entry.update({str_md:DB.entries[i]['year']})
 
 
-    sorted_tuple_list = sorted(list_entry.items(), reverse=True, key=lambda x: x[1])
+    #sorted_tuple_list = sorted(list_entry.items(), reverse=True, key=lambda x: x[1])
+    sorted_tuple_list = list_entry.items()
     for elem in sorted_tuple_list:
         all_str += elem[0]
 
