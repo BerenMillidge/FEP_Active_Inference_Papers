@@ -66,7 +66,7 @@ If you are just starting out, I reccomend reading all the papers in the 'Survey'
  *Extends predictive coding to generalised coordinates, and derives the necessary inference algorithms for working with them -- i.e. DEM, dynamic expectation maximisation.* 
 - [**Generalised filtering**](https://www.hindawi.com/journals/mpe/2010/621670/) , (2010) by *Friston, Karl, Stephan, Klaas, Li, Baojuan and Daunizeau, Jean* [[bib]](bibtex.bib#L215-L224) 
 - [**Surfing uncertainty: Prediction, action, and the embodied mind**](https://books.google.co.uk/books?hl=en&lr=&id=TnqECgAAQBAJ&oi=fnd&pg=PP1&dq=andy+clark+surfing+uncertainty&ots=aurm4jE3NO&sig=KxeHGJ6YJJdN9tKyr6snwDyBBKg&redir_esc=y#v=onepage&q=andy%20clark%20surfing%20uncertainty&f=false) , (2015) by *Clark, Andy* [[bib]](bibtex.bib#L322-L329) 
-- [**Variational filtering**](https://www.sciencedirect.com/science/article/pii/S1053811908002462?casa_token=bzK7h_aIzY0AAAAA:rg1CzE6vNo-cktIHO_9EAoqmR5Zpy89klEn-Wy3NAzMoR8NcWgaF5_zEzyhrRB76N5RPyCZTIlY) , (2008) by *Friston, Karl J* [[bib]](bibtex.bib#L854-L865) 
+- [**Variational filtering**](https://www.sciencedirect.com/science/article/pii/S1053811908002462?casa_token=bzK7h_aIzY0AAAAA:rg1CzE6vNo-cktIHO_9EAoqmR5Zpy89klEn-Wy3NAzMoR8NcWgaF5_zEzyhrRB76N5RPyCZTIlY) , (2008) by *Friston, Karl J* [[bib]](bibtex.bib#L855-L866) 
  
  *Foundational treatment of variational inference for dynamical systems, as represented in generalised coordinates. Also relates variational filtering to other non-variational schemes like particle filtering and Kalman filtering.* 
 
@@ -82,11 +82,11 @@ If you are just starting out, I reccomend reading all the papers in the 'Survey'
 - [**Predictive processing and the representation wars**](https://link.springer.com/article/10.1007/s11023-017-9441-6) , (2018) by *Williams, Daniel* [[bib]](bibtex.bib#L288-L299) 
 - [**Whatever next? Predictive brains, situated agents, and the future of cognitive science**](https://www.cambridge.org/core/journals/behavioral-and-brain-sciences/article/whatever-next-predictive-brains-situated-agents-and-the-future-of-cognitive-science/33542C736E17E3D1D44E8D03BE5F4CD9) , (2013) by *Clark, Andy* [[bib]](bibtex.bib#L300-L311) 
 - [**Predictions in the eye of the beholder: an active inference account of Watt governors**](https://www.mitpressjournals.org/doi/abs/10.1162/isal_a_00288) , (2020) by *Baltieri, Manuel, Buckley, Christopher L and Bruineberg, Jelle* [[bib]](bibtex.bib#L312-L321) 
-- [**From allostatic agents to counterfactual cognisers: active inference, biological regulation, and the origins of cognition**](https://link.springer.com/article/10.1007/s10539-020-09746-2) , (2020) by *Corcoran, Andrew W, Pezzulo, Giovanni and Hohwy, Jakob* [[bib]](bibtex.bib#L795-L806) 
-- [**Interoceptive inference, emotion, and the embodied self**](https://www.sciencedirect.com/science/article/pii/S1364661313002118) , (2013) by *Seth, Anil K* [[bib]](bibtex.bib#L807-L818) 
-- [**Active interoceptive inference and the emotional brain**](https://royalsocietypublishing.org/doi/full/10.1098/rstb.2016.0007) , (2016) by *Seth, Anil K and Friston, Karl J* [[bib]](bibtex.bib#L819-L830) 
-- [**The cybernetic Bayesian brain**](https://open-mind.net/papers/the-cybernetic-bayesian-brain) , (2014) by *Seth, Anil K* [[bib]](bibtex.bib#L831-L838) 
-- [**Presence, objecthood, and the phenomenology of predictive perception**](https://www.tandfonline.com/doi/full/10.1080/17588928.2015.1026888?casa_token=IA7GL_oM2VAAAAAA%3AXkJ7HbhxHcW7qCdSWyRSerOo8iZevM3x_8QV1b7C7qAvAqJMveeq4IeGRBTCCbQOCJ6Ix9p70VkKww) , (2015) by *Seth, Anil K* [[bib]](bibtex.bib#L839-L850) 
+- [**From allostatic agents to counterfactual cognisers: active inference, biological regulation, and the origins of cognition**](https://link.springer.com/article/10.1007/s10539-020-09746-2) , (2020) by *Corcoran, Andrew W, Pezzulo, Giovanni and Hohwy, Jakob* [[bib]](bibtex.bib#L796-L807) 
+- [**Interoceptive inference, emotion, and the embodied self**](https://www.sciencedirect.com/science/article/pii/S1364661313002118) , (2013) by *Seth, Anil K* [[bib]](bibtex.bib#L808-L819) 
+- [**Active interoceptive inference and the emotional brain**](https://royalsocietypublishing.org/doi/full/10.1098/rstb.2016.0007) , (2016) by *Seth, Anil K and Friston, Karl J* [[bib]](bibtex.bib#L820-L831) 
+- [**The cybernetic Bayesian brain**](https://open-mind.net/papers/the-cybernetic-bayesian-brain) , (2014) by *Seth, Anil K* [[bib]](bibtex.bib#L832-L839) 
+- [**Presence, objecthood, and the phenomenology of predictive perception**](https://www.tandfonline.com/doi/full/10.1080/17588928.2015.1026888?casa_token=IA7GL_oM2VAAAAAA%3AXkJ7HbhxHcW7qCdSWyRSerOo8iZevM3x_8QV1b7C7qAvAqJMveeq4IeGRBTCCbQOCJ6Ix9p70VkKww) , (2015) by *Seth, Anil K* [[bib]](bibtex.bib#L840-L851) 
 
 ## Self-Organisation and Markov Blankets
 - [**Life as we know it**](https://royalsocietypublishing.org/doi/full/10.1098/rsif.2013.0475) , (2013) by *Friston, Karl* [[bib]](bibtex.bib#L330-L341) 
@@ -166,7 +166,7 @@ The task of inferring actions (requiring detailed models of future outcomes give
 - [**The State Space Formulation of Active Inference: Towards Brain-Inspired Robot Control**](https://repository.tudelft.nl/islandora/object/uuid:0f56c37c-d22b-478b-8a85-dca615a8f419) , (2019) by *Grimbergen, Sherin* [[bib]](bibtex.bib#L726-L732) 
  
  *An excellent overview and fantastic piece of work on the linear time-indepenent formulation of active inference and its relation to classical control theory.* 
-- **Hierarchical active inference: A theory of motivated control**, (2018) by *Pezzulo, Giovanni, Rigoli, Francesco and Friston, Karl J* [[bib]](bibtex.bib#L784-L794) 
+- [**Hierarchical active inference: A theory of motivated control**](https://www.sciencedirect.com/science/article/pii/S1364661318300226) , (2018) by *Pezzulo, Giovanni, Rigoli, Francesco and Friston, Karl J* [[bib]](bibtex.bib#L784-L795) 
 
 ## Message Passing and Free Energies
 - [**The graphical brain: belief propagation and active inference**](https://www.mitpressjournals.org/doi/full/10.1162/NETN_a_00018) , (2017) by *Friston, Karl J, Parr, Thomas and de Vries, Bert* [[bib]](bibtex.bib#L504-L515) 
