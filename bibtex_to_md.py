@@ -122,8 +122,9 @@ def get_outline(list_classif, filename):
 
     str_outline += "## FEP Outline \n"
 
-    str_outline += "This list is of papers focused specifically on the abstract mathematical formulation of the Free-Energy-Principle (FEP). The FEP "
-    str_outline += "\n \n"
+    str_outline += "This list is of papers focused specifically on the abstract mathematical formulation of the Free-Energy-Principle (FEP). The FEP is a theory which tries to determine the behaviours a non-equilibrium thermodynamical system *must* exhibit if it is to maintain itself as a separate entity over time. It argues that any such system must minimize a quantity called the free energy and that, over the course of this minimisation, behaviour much like action and perception must emerge. \n \n"
+    str_outline += "The key prerequisites for the FEP is that a 'system' has a special kind of statistical separation from the world called a Markov Blanket, which it must maintain if it is to remain a system, and that the system possesses a non-equilibrium steady state which it self-organises to and tries to maintain over time against the dissipative forces of entropy. \n \n"
+    str_outline += "Much of the work in the FEP has been applying its general tenets to understand biological far-from-equilibrium systems, especially the brain. \n \n"
     for item in list_classif:
         str_outline += "- [" + item[0] + "](https://github.com/BerenMillidge/FEP_Active_Inference_Papers/blob/master/" + filename + "#" \
                        + item[0].replace(" ", "-").lower() + ')\n'
