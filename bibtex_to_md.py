@@ -121,7 +121,7 @@ def get_md(DB, item, key, add_comments):
 def get_outline(list_classif, filename):
     str_outline = "# FEP and Active Inference Paper Repository \n"
 
-    str_outline += "This repository provides a list of papers that I believe are interesting and influential on the Free-Energy-Principle, or in Active Inference. If you believe I have missed any papers, please contact me or make a pull request with the information about the paper. I will be happy to include it. \n\n"
+    str_outline += "This repository provides a list of papers that I believe are interesting and influential on the Free-Energy-Principle, or in Active Inference. If you believe I have missed any papers, please contact me at *beren@millidge.name* or make a pull request with the information about the paper. I will be happy to include it. \n\n"
 
     str_outline += "## FEP Outline \n"
 
