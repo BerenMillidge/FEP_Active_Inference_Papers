@@ -66,7 +66,7 @@ If you are just starting out, I reccomend reading all the papers in the 'Survey'
  *Extends predictive coding to generalised coordinates, and derives the necessary inference algorithms for working with them -- i.e. DEM, dynamic expectation maximisation.* 
 - [**Generalised filtering**](https://www.hindawi.com/journals/mpe/2010/621670/) , (2010) by *Friston, Karl, Stephan, Klaas, Li, Baojuan and Daunizeau, Jean* [[bib]](bibtex.bib#L215-L224) 
 - [**Surfing uncertainty: Prediction, action, and the embodied mind**](https://books.google.co.uk/books?hl=en&lr=&id=TnqECgAAQBAJ&oi=fnd&pg=PP1&dq=andy+clark+surfing+uncertainty&ots=aurm4jE3NO&sig=KxeHGJ6YJJdN9tKyr6snwDyBBKg&redir_esc=y#v=onepage&q=andy%20clark%20surfing%20uncertainty&f=false) , (2015) by *Clark, Andy* [[bib]](bibtex.bib#L322-L329) 
-- [**Variational filtering**](https://www.sciencedirect.com/science/article/pii/S1053811908002462?casa_token=bzK7h_aIzY0AAAAA:rg1CzE6vNo-cktIHO_9EAoqmR5Zpy89klEn-Wy3NAzMoR8NcWgaF5_zEzyhrRB76N5RPyCZTIlY) , (2008) by *Friston, Karl J* [[bib]](bibtex.bib#L855-L866) 
+- [**Variational filtering**](https://www.sciencedirect.com/science/article/pii/S1053811908002462?casa_token=bzK7h_aIzY0AAAAA:rg1CzE6vNo-cktIHO_9EAoqmR5Zpy89klEn-Wy3NAzMoR8NcWgaF5_zEzyhrRB76N5RPyCZTIlY) , (2008) by *Friston, Karl J* [[bib]](bibtex.bib#L889-L900) 
  
  *Foundational treatment of variational inference for dynamical systems, as represented in generalised coordinates. Also relates variational filtering to other non-variational schemes like particle filtering and Kalman filtering.* 
 
@@ -87,6 +87,9 @@ If you are just starting out, I reccomend reading all the papers in the 'Survey'
 - [**Active interoceptive inference and the emotional brain**](https://royalsocietypublishing.org/doi/full/10.1098/rstb.2016.0007) , (2016) by *Seth, Anil K and Friston, Karl J* [[bib]](bibtex.bib#L820-L831) 
 - [**The cybernetic Bayesian brain**](https://open-mind.net/papers/the-cybernetic-bayesian-brain) , (2014) by *Seth, Anil K* [[bib]](bibtex.bib#L832-L839) 
 - [**Presence, objecthood, and the phenomenology of predictive perception**](https://www.tandfonline.com/doi/full/10.1080/17588928.2015.1026888?casa_token=IA7GL_oM2VAAAAAA%3AXkJ7HbhxHcW7qCdSWyRSerOo8iZevM3x_8QV1b7C7qAvAqJMveeq4IeGRBTCCbQOCJ6Ix9p70VkKww) , (2015) by *Seth, Anil K* [[bib]](bibtex.bib#L840-L851) 
+- [**First principles in the life sciences: The free-energy principle, organicism, and mechanism**](https://link.springer.com/article/10.1007/s11229-018-01932-w) , (2018) by *Colombo, Matteo and Wright, Cory* [[bib]](bibtex.bib#L853-L863) 
+- [**From cognitivism to autopoiesis: towards a computational framework for the embodied mind**](https://link.springer.com/article/10.1007%2Fs11229-016-1288-5) , (2018) by *Allen, Micah and Friston, Karl J* [[bib]](bibtex.bib#L864-L875) 
+- [**Computational enactivism under the free energy principle**](https://link.springer.com/article/10.1007/s11229-019-02243-4) , (2019) by *Korbak, Tomasz* [[bib]](bibtex.bib#L876-L886) 
 
 ## Self-Organisation and Markov Blankets
 - [**Life as we know it**](https://royalsocietypublishing.org/doi/full/10.1098/rsif.2013.0475) , (2013) by *Friston, Karl* [[bib]](bibtex.bib#L330-L341) 
