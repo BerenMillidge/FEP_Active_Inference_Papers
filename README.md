@@ -221,7 +221,7 @@ The task of inferring actions (requiring detailed models of future outcomes give
  
 ## Acknowledgements 
  
-Many thanks to @conorheins, Tomasz Korbak, and Manuel Baltieri for their helpful suggestions. 
+Many thanks to @conorheins, Tomasz Korbak, Ryan Smith, and Manuel Baltieri for their helpful suggestions. 
  
 
  
