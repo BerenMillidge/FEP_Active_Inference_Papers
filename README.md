@@ -120,6 +120,7 @@ The task of inferring actions (requiring detailed models of future outcomes give
 - [Continuous Time Formulation](https://github.com/BerenMillidge/FEP_Active_Inference_Papers/blob/master/README.md#continuous-time-formulation)
 - [Message Passing and Free Energies](https://github.com/BerenMillidge/FEP_Active_Inference_Papers/blob/master/README.md#message-passing-and-free-energies)
 - [Active Inference for Control Theory/Robotics](https://github.com/BerenMillidge/FEP_Active_Inference_Papers/blob/master/README.md#active-inference-for-control-theory/robotics)
+- [Neuroscience and Computational Psychiatry Applications](https://github.com/BerenMillidge/FEP_Active_Inference_Papers/blob/master/README.md#neuroscience-and-computational-psychiatry-applications)
 - [Deep Active Inference](https://github.com/BerenMillidge/FEP_Active_Inference_Papers/blob/master/README.md#deep-active-inference)
 
 ## Surveys and Tutorials
@@ -193,6 +194,14 @@ The task of inferring actions (requiring detailed models of future outcomes give
 - [**End-to-end pixel-based deep active inference for body perception and action**](https://arxiv.org/abs/2001.05847) , (2019) by *Sancaktar, Cansu and Lanillos, Pablo* [[bib]](bibtex.bib#L754-L761) 
 - [**Active inference for robot control: A factor graph approach**](https://pdfs.semanticscholar.org/e177/b21b0a7f43ad3969ceb42bd8f1d912ea8d43.pdf) , (2019) by *Vanderbroeck, Mees, Baioumy, Mohamed, van der Lans, Daan, de Rooij, Rens and van der Werf, Tiis* [[bib]](bibtex.bib#L762-L771) 
 - [**A novel adaptive controller for robot manipulators based on active inference**](https://ieeexplore.ieee.org/abstract/document/9000729/?casa_token=OBL93SqhogUAAAAA:6w99NtC-Fk7P0tIiXx6QmTNsWnPS-GKK0OtsJEz-HWgniXwpY0Rtue_qlc5Fe9HQ2vj0ropx7hM) , (2020) by *Pezzato, Corrado, Ferrari, Riccardo and Corbato, Carlos Hern{\'a}ndez* [[bib]](bibtex.bib#L772-L783) 
+
+## Neuroscience and Computational Psychiatry Applications
+- [**Recent advances in the application of predictive coding and active inference models within clinical neuroscience**](https://onlinelibrary.wiley.com/doi/abs/10.1111/pcn.13138) , (2020) by *Smith, Ryan, Badcock, Paul and Friston, Karl J* [[bib]](bibtex.bib#L868-L876) 
+ 
+ *A comprehensive review of neuroscientific and computational psychiatry applications of the FEP and Active Inference.* 
+- [**The Predictive Global Neuronal Workspace: A Formal Active Inference Model of Visual Consciousness**](https://www.sciencedirect.com/science/article/pii/S0301008220301738) , (2020) by *Whyte, Christopher J and Smith, Ryan* [[bib]](bibtex.bib#L879-L887) 
+- [**Neurocomputational mechanisms underlying emotional awareness: insights afforded by deep active inference and their potential clinical relevance**](https://www.sciencedirect.com/science/article/pii/S014976341930541X?casa_token=c1UILIbIsKYAAAAA:tQbclbvyieFsSPf_oqulTP8Manv6fU6CeI1iHGZe5Iq4TryLR4pGRjK0Y7RD4gZCfjJo02uWyvw) , (2019) by *Smith, Ryan, Lane, Richard D, Parr, Thomas and Friston, Karl J* [[bib]](bibtex.bib#L888-L898) 
+- [**Simulating emotions: An active inference model of emotional state inference and emotion concept learning**](https://www.frontiersin.org/articles/10.3389/fpsyg.2019.02844/full) , (2019) by *Smith, Ryan, Parr, Thomas and Friston, Karl J* [[bib]](bibtex.bib#L900-L910) 
 
 ## Deep Active Inference
 - [**Reinforcement Learning through Active Inference**](https://arxiv.org/abs/2002.12636) , (2020) by *Tschantz, Alexander, Millidge, Beren, Seth, Anil K and Buckley, Christopher L* [[bib]](bibtex.bib#L620-L627) 

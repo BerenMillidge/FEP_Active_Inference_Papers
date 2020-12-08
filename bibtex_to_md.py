@@ -230,6 +230,7 @@ if __name__ == '__main__':
                     ["Continuous Time Formulation","continuous"],
                     ["Message Passing and Free Energies","free_energy"],
                     ["Active Inference for Control Theory/Robotics","robotics"],
+                    ["Neuroscience and Computational Psychiatry Applications","applications"],
                     ["Deep Active Inference", "deep"]]
 
     generate_md_file(DB=bib_db, list_classif=FEP_list_types,AIF_list_classif=AIF_list_types, key="keywords", plot_title_fct=plot_titles, filename= "README.md", add_comments=True)
