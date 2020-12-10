@@ -69,6 +69,7 @@ If you are just starting out, I reccomend reading all the papers in the 'Survey'
 - [**Variational filtering**](https://www.sciencedirect.com/science/article/pii/S1053811908002462?casa_token=bzK7h_aIzY0AAAAA:rg1CzE6vNo-cktIHO_9EAoqmR5Zpy89klEn-Wy3NAzMoR8NcWgaF5_zEzyhrRB76N5RPyCZTIlY) , (2008) by *Friston, Karl J* [[bib]](bibtex.bib#L855-L866) 
  
  *Foundational treatment of variational inference for dynamical systems, as represented in generalised coordinates. Also relates variational filtering to other non-variational schemes like particle filtering and Kalman filtering.* 
+- [**Action and behavior: a free-energy formulation**](https://link.springer.com/article/10.1007/s00422-010-0364-z) , (2010) by *Friston, Karl J, Daunizeau, Jean, Kilner, James and Kiebel, Stefan J* [[bib]](bibtex.bib#L939-L950) 
 
 ## Philosophical Analyses
 - [**A tale of two densities: Active inference is enactive inference**](https://journals.sagepub.com/doi/pdf/10.1177/1059712319862774) , (2020) by *Ramstead, Maxwell JD, Kirchhoff, Michael D and Friston, Karl J* [[bib]](bibtex.bib#L225-L236) 
@@ -87,6 +88,7 @@ If you are just starting out, I reccomend reading all the papers in the 'Survey'
 - [**Active interoceptive inference and the emotional brain**](https://royalsocietypublishing.org/doi/full/10.1098/rstb.2016.0007) , (2016) by *Seth, Anil K and Friston, Karl J* [[bib]](bibtex.bib#L820-L831) 
 - [**The cybernetic Bayesian brain**](https://open-mind.net/papers/the-cybernetic-bayesian-brain) , (2014) by *Seth, Anil K* [[bib]](bibtex.bib#L832-L839) 
 - [**Presence, objecthood, and the phenomenology of predictive perception**](https://www.tandfonline.com/doi/full/10.1080/17588928.2015.1026888?casa_token=IA7GL_oM2VAAAAAA%3AXkJ7HbhxHcW7qCdSWyRSerOo8iZevM3x_8QV1b7C7qAvAqJMveeq4IeGRBTCCbQOCJ6Ix9p70VkKww) , (2015) by *Seth, Anil K* [[bib]](bibtex.bib#L840-L851) 
+- [**The Math is not the Territory: Navigating the Free Energy Principle**](http://philsci-archive.pitt.edu/18315/) , (2020) by *Andrews, Mel* [[bib]](bibtex.bib#L911-L917) 
 
 ## Self-Organisation and Markov Blankets
 - [**Life as we know it**](https://royalsocietypublishing.org/doi/full/10.1098/rsif.2013.0475) , (2013) by *Friston, Karl* [[bib]](bibtex.bib#L330-L341) 
@@ -194,6 +196,7 @@ The task of inferring actions (requiring detailed models of future outcomes give
 - [**End-to-end pixel-based deep active inference for body perception and action**](https://arxiv.org/abs/2001.05847) , (2019) by *Sancaktar, Cansu and Lanillos, Pablo* [[bib]](bibtex.bib#L754-L761) 
 - [**Active inference for robot control: A factor graph approach**](https://pdfs.semanticscholar.org/e177/b21b0a7f43ad3969ceb42bd8f1d912ea8d43.pdf) , (2019) by *Vanderbroeck, Mees, Baioumy, Mohamed, van der Lans, Daan, de Rooij, Rens and van der Werf, Tiis* [[bib]](bibtex.bib#L762-L771) 
 - [**A novel adaptive controller for robot manipulators based on active inference**](https://ieeexplore.ieee.org/abstract/document/9000729/?casa_token=OBL93SqhogUAAAAA:6w99NtC-Fk7P0tIiXx6QmTNsWnPS-GKK0OtsJEz-HWgniXwpY0Rtue_qlc5Fe9HQ2vj0ropx7hM) , (2020) by *Pezzato, Corrado, Ferrari, Riccardo and Corbato, Carlos Hern{\'a}ndez* [[bib]](bibtex.bib#L772-L783) 
+- [**Adaptive robot body learning and estimation through predictive coding**](https://ieeexplore.ieee.org/document/8593684/) , (2018) by *Lanillos, Pablo and Cheng, Gordon* [[bib]](bibtex.bib#L929-L938) 
 
 ## Neuroscience and Computational Psychiatry Applications
 - [**Recent advances in the application of predictive coding and active inference models within clinical neuroscience**](https://onlinelibrary.wiley.com/doi/abs/10.1111/pcn.13138) , (2020) by *Smith, Ryan, Badcock, Paul and Friston, Karl J* [[bib]](bibtex.bib#L868-L876) 
@@ -202,6 +205,8 @@ The task of inferring actions (requiring detailed models of future outcomes give
 - [**The Predictive Global Neuronal Workspace: A Formal Active Inference Model of Visual Consciousness**](https://www.sciencedirect.com/science/article/pii/S0301008220301738) , (2020) by *Whyte, Christopher J and Smith, Ryan* [[bib]](bibtex.bib#L879-L887) 
 - [**Neurocomputational mechanisms underlying emotional awareness: insights afforded by deep active inference and their potential clinical relevance**](https://www.sciencedirect.com/science/article/pii/S014976341930541X?casa_token=c1UILIbIsKYAAAAA:tQbclbvyieFsSPf_oqulTP8Manv6fU6CeI1iHGZe5Iq4TryLR4pGRjK0Y7RD4gZCfjJo02uWyvw) , (2019) by *Smith, Ryan, Lane, Richard D, Parr, Thomas and Friston, Karl J* [[bib]](bibtex.bib#L888-L898) 
 - [**Simulating emotions: An active inference model of emotional state inference and emotion concept learning**](https://www.frontiersin.org/articles/10.3389/fpsyg.2019.02844/full) , (2019) by *Smith, Ryan, Parr, Thomas and Friston, Karl J* [[bib]](bibtex.bib#L900-L910) 
+- [**The hierarchical basis of neurovisceral integration**](https://www.sciencedirect.com/science/article/pii/S014976341630673X?casa_token=V0kmqFxZWg4AAAAA:QE5VJB7jp6k22u8L7S7iWYh2_EiLV9a4gyXGUfSMIXOte_zYxGsH2YXUkvKY6PeDKriYy8nu11o) , (2017) by *Smith, Ryan, Thayer, Julian F, Khalsa, Sahib S and Lane, Richard D* [[bib]](bibtex.bib#L918-L928) 
+- [**Active inference in OpenAI gym: a paradigm for computational investigations into psychiatric illness**](https://www.sciencedirect.com/science/article/pii/S2451902218301617?casa_token=HRn2UHzCR18AAAAA:lTqZvwAL3WoYmchm2W2WYXKsastkTOVcEDpu9Fxtm5aZIfr6jmhexYHurChmmpFaNufNEpFuuPo) , (2018) by *Cullen, Maell, Davey, Ben, Friston, Karl J and Moran, Rosalyn J* [[bib]](bibtex.bib#L951-L962) 
 
 ## Deep Active Inference
 - [**Reinforcement Learning through Active Inference**](https://arxiv.org/abs/2002.12636) , (2020) by *Tschantz, Alexander, Millidge, Beren, Seth, Anil K and Buckley, Christopher L* [[bib]](bibtex.bib#L620-L627) 
@@ -221,7 +226,7 @@ The task of inferring actions (requiring detailed models of future outcomes give
  
 ## Acknowledgements 
  
-Many thanks to @conorheins, Tomasz Korbak, Ryan Smith, and Manuel Baltieri for their helpful suggestions. 
+Many thanks to @conorheins, Tomasz Korbak, Ryan Smith, Mel Andrews, and Manuel Baltieri for their helpful suggestions. 
  
 
  
