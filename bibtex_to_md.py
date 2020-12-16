@@ -93,7 +93,7 @@ def get_md_entry(DB, entry, add_comments=True):
 
     md_str += ", (" + entry['year'] + ")"
 
-    md_str += " by *" + keep_last_and_only(entry['author']) + "*"
+    md_str += " by " + keep_last_and_only(entry['author'])
 
     md_str += " [[bib]](" + create_bib_link(entry['ID']) + ") "
 
