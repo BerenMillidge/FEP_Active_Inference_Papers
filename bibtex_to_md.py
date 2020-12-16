@@ -4,18 +4,39 @@ import collections
 
 ### utility function ###
 
+FIRST_NAME_INITIAL = False
+
+def swap_first_last_names(authors_str, initial_first=False):
+    authors = authors_str.split(" and ")
+    s = ""
+    for author in authors:
+        split_list = author.split(",")
+        if len(split_list) == 2:
+            last,first = split_list
+            if initial_first:
+                s += str(first[1]) + " " + str(last) + " and "
+            else:
+                s += str(first) + " " + str(last) + " and "
+        else:
+            print(split_list)
+            s += str(split_list[0]) + " and "
+    return s
+
+
 def keep_last_and_only(authors_str):
     """
     This function is dedicated to parse authors, it removes all the "and" but the last and and replace them with ", "
     :param str: string with authors
     :return: string with authors with only one "and"
     """
-
+    authors_str = swap_first_last_names(authors_str,initial_first = FIRST_NAME_INITIAL)
     last_author = authors_str.split(" and ")[-1]
 
     without_and = authors_str.replace(" and ", ", ")
 
     str_ok = without_and.replace(", " + last_author, " and " + last_author)
+    # cut out final and
+    str_ok = str_ok[:-4]
 
     return str_ok
 
@@ -156,7 +177,7 @@ def get_AIF_outline(list_classif, filename):
 def get_acknowledgements():
     str_outline = "\n \n"
     str_outline += "## Acknowledgements \n \n"
-    str_outline += "Many thanks to @conorheins, Tomasz Korbak, Ryan Smith, Mel Andrews, and Manuel Baltieri for their helpful suggestions. \n \n"
+    str_outline += "Many thanks to @conorheins, Tomasz Korbak, Ryan Smith, Mel Andrews, Casper Hesp, and Manuel Baltieri for their helpful suggestions. \n \n"
     return str_outline
 
 def get_footnote_string():
